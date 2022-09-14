@@ -1,0 +1,23 @@
+<style>
+
+h1 {
+    color: black;
+    text-align: left;
+    font-style: inherit;
+    font-size: larger;
+}
+h3 {
+    color: azure;
+    font-style: inherit;
+}
+a {
+    color: blueviolet;
+}
+p {
+    text-align: left;
+    color: azure;
+    font-style: inherit;
+    font-size: large;
+}
+body {background-color: bisque;
+}
