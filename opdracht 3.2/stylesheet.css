@@ -1,0 +1,17 @@
+body {
+    background-color: bisque;
+}
+p {
+    font-size: large;
+    font-style: inherit;
+}
+label {
+    font-size: large;
+    font-style: inherit;
+}
+input {
+    list-style-type: disc;
+    list-style-position: outside;
+    border-style: groove;
+    outline-style: inherit;
+}
