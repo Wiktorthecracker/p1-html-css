@@ -1,0 +1,101 @@
+html {
+    font-size: 62.5%;
+  }
+  body {
+    font-family: "Goldman", cursive;
+  }
+  
+  nav {
+    display: flex;
+    width: 100%;
+    padding: 2rem;
+    min-height: 10vh;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    background: #00a8c7;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1;
+  }
+  nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+  }
+  nav li {
+    font-size: 2.5rem;
+    padding: 0 4rem 0 4rem;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  nav img {
+    width: 5vw;
+  }
+  body{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: 1210px;
+    background-position: 100px;
+    background-position-y: 100px;
+  }
+  h1{
+color: white;
+text-align: center;
+font-size: 50px;
+position: relative;
+top: 200px;
+  }
+  div img{
+    width: 400px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    margin-left: 00px;
+    float: right;
+  }
+div h2{
+  color: white;
+  margin-top: 300px;
+  font-size: 100px;
+  text-align: center;
+}
+footer {
+  width: 100%;
+  background-color:#00a8c7;
+  min-height: 100px;
+  }
+  p{
+  font-size: 20px;
+  }
+  footer p{
+  color: white;
+  margin-left: 725px;
+  margin-top: 500px;
+  margin-bottom: 500px;
+  }
+  div h3{
+    color: white;
+    margin-top: 300px;
+    font-size: 100px;
+    text-align: center;
+  }
+  div p{
+  font-size: 25px;
+  color: white;
+  }
+#foto1 {
+  margin-left: 200px;
+}
+#foto2 {
+margin-left: 200px;
+}
+#foto3 {
+  margin-left: 200px;
+}
+#foto4 {
+margin-left: 200px;
+}
+
