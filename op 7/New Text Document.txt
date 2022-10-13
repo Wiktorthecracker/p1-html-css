@@ -1,0 +1,4 @@
+576 px = telefoon
+768 px = ipad
+992 px = laptop
+1200 px = grotere apparaten

@@ -1,0 +1,109 @@
+*{
+  margin: 0px;
+}
+
+body {
+    background-color: rgb(158, 158, 158);
+  }
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  padding: 0,7cm;
+}
+
+header {
+  background-color: rgb(255, 98, 98);
+  height: 5vw;
+}
+
+.Yellow {
+    background-color: yellow;
+    height: 15vw;
+}
+.orange {
+     background-color: orange;
+     height: 15vw;
+   }
+.green {
+     background-color: lightgreen;
+     height: 15vw;
+  }
+
+  @media only screen and (max-width: 768px) {
+    body {
+      background-color: rgb(69, 0, 133);
+    }
+    *{
+      margin: 0px;
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: auto;
+      padding: 0,7cm;
+    }
+    
+    header {
+      background-color: rgb(255, 98, 98);
+      height: 15vw;
+    }
+
+    .Yellow {
+      background-color: rgb(255, 62, 62);
+      height: 28vw;
+    }
+  .orange {
+      background-color: lightskyblue;
+      height: 28vw;
+    }
+  .green {
+      background-color: blue;
+      height: 28vw;
+    }
+  }
+
+  
+  @media only screen and (max-width: 576px) {
+    body {
+      background-color: lightblue;
+    }
+
+    *{
+      margin: 0px;
+    }
+
+    nav {
+      margin: auto;
+      padding: 0,7cm;
+      text-align: center;
+    }
+    
+    header {
+      background-color: rgb(116, 66, 255);
+      height: 13vw;
+      text-align: center;
+    }
+
+    .Yellow {
+      background-color: rgb(23, 220, 255);
+      height: 28vw;
+      text-align: center;
+    }
+  .orange {
+      background-color: rgb(204, 77, 255);
+      height: 28vw;
+      text-align: center;
+    }
+  .green {
+      background-color: rgb(98, 30, 255);
+      height: 28vw;
+      text-align: center;
+    }
+  
+  }
+  

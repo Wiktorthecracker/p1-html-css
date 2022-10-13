@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(104, 104, 104);
+  }
+  
+  .menu {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      list-style: none;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+    .menu {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      list-style: none;
+  }
+  }
+  
