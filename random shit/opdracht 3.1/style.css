@@ -1,0 +1,59 @@
+/* 
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*/
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Goldman", cursive;
+  background-color: rgb(190, 190, 190);
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  padding: 2rem;
+  min-height: 10vh;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+  background: #000000;
+  justify-content: space-between;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+nav li {
+  font-size: 2.5rem;
+  padding: 0 4rem 0 4rem;
+}
+nav a {
+  color: rgb(255, 102, 0);
+  text-decoration: none;
+}
+nav img {
+  width: 5vw;
+}
+
+/*nieuw*/
+
+.tekst
+{
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  list-style-type: circle;
+
+}
+
+.teskt2
+{
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: oblique;
+}

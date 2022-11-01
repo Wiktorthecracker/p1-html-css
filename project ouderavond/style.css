@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html {
+    font-size: 62.5%;
+  }
+  body {
+    font-family: "Goldman", cursive;
+    background-color:#2f7258;
+  }
+  h1 {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 52px;
+            color: white;
+        }
+        h4 {
+            font-size: 18px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+  
+  nav {
+    display: flex;
+    width: 100%;
+    padding: 2rem;
+    min-height: 10vh;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    background: #0a3d2a;
+    justify-content: space-between;
+    position: fixed;
+  }
+  nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin-right: 32px;
+  }
+  nav li {
+    font-size: 2.5rem;
+    padding: 0 4rem 0 4rem;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  nav img {
+    width: 5vw;
+  }
+  .dropbtn {
+    background-color: #0a3d2a;
+    color: rgb(255, 255, 255);
+    padding: 0 7rem 0 7rem;
+    font-size: 2.5rem;
+    font-family: "Goldman", cursive;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #0a3d2a;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: #fcfcfc;
+    padding: 16px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: "Goldman", cursive;
+    font-size: 2rem;
+  }
+  
+  .dropdown-content a:hover {background-color: #0d4932}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #0d4932;
+  }
+
+  .kopjes {
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fcfcfc;
+  }
+
+  .lastofus {
+    width: 25%;
+    height: 35%;
+  }
+
+  .video {
+    font-size: 20px;
+  }

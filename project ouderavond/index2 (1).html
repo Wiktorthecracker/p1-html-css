@@ -12,6 +12,10 @@
 <html>
 <head>
 <style>
+
+body {
+  background-color: #266e56;
+}
 ul {
   list-style-type: none;
   margin: 0;
@@ -46,60 +50,71 @@ li a:hover:not(.active) {
 <ul>
 
   <style>
-    .dropbtn {
-      background-color: #04AA6D;
-      color: white;
-      padding: 16px;
-      font-size: 16px;
-      border: none;
-    }
-    
-    .dropdown {
-      position: relative;
-      display: inline-block;
-    }
-    
-    .dropdown-content {
-      display: none;
-      position: absolute;
-      background-color: #f1f1f1;
-      min-width: 160px;
-      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-      z-index: 1;
-    }
-    
-    .dropdown-content a {
-      color: black;
-      padding: 12px 16px;
-      text-decoration: none;
-      display: block;
-    }
-    
-    .dropdown-content a:hover {background-color: #ddd;}
-    
-    .dropdown:hover .dropdown-content {display: block;}
-    
-    .dropdown:hover .dropbtn {background-color: #3e8e41;}
+  .dropbtn {
+    background-color: #2f7258;
+    color: rgb(255, 255, 255);
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    background-color: #126143;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: #ffffff;
+    padding: 16px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 1rem;
+  }
+  
+  .dropdown-content a:hover {background-color: #053b27}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #0d4932;
+  }
     </style>
     </head>
     <body>
     
     
-    <div class="dropdown">
-      <button class="dropbtn">Dropdown</button>
-      <div class="dropdown-content">
-        <a href="#">Link 1</a>
-        <a href="#">Link 2</a>
-        <a href="#">Link 3</a>
-      </div>
-    </div>
+      <div class="dropdown">
+        <button class="dropbtn">Over ons</button>
+        <div class="dropdown-content">
+          <li><a href="indexwiktor.html">Wiktor</a></li>
+          <li><a href="indexoskar.html">Oskar</a></li>
+        </div>
+        </div>
   <li><a class="active" href="#home">Home</a></li>
-  <li><a href="#page2">pagina2</a></li>
-  <li><a href="#page3">pagina3</a></li>
-  <li><a href="#page4">pagina4</a></li>
-  <li><a href="#page5">pagina5</a></li>
-  <li><a href="#page6">pagina6</a></li>
-  <li style="float:right"><a href="#about">Over ons</a></li>
+  <li><a href="indexcanvas.html">Canvas</a></li>
+  <li><a href="indexeduarte.html">EduArte</a></li>
+  <li><a href="indexopleidingswijzer.html">De opleidingswijzer</a></li>
+  <li><a href="indexlocatiegids.html">De locatiegids</a></li>
+  <li><a href="indexbegeleiding.html">De begeleiding</a></li>
+  <li><a href="indexsoftware.html">De software</a></li>
+  <li><a href="indexexamenplan.html">Het examenplan</a></li>
+  <li><a href="indexouderspreekavond.html">ouderspreekavond</a></li>
+  <li><a href="indexstudieadvies.html">BSA</a></li>
   
 </ul>
 
@@ -133,7 +148,7 @@ header {
   padding: 30px;
   text-align: center;
   font-size: 35px;
-  color: whitesmoke;
+  color: rgb(255, 255, 255);
 }
 
 /* Create two columns/boxes that floats next to each other */
@@ -141,7 +156,7 @@ nav {
   float: left;
   width: 30%;
   height: 300px; /* only for demonstration, should be removed */
-  background: #014730;
+  background: #053d2a;
   padding: 20px;
 }
 
@@ -155,7 +170,7 @@ article {
   float: left;
   padding: 20px;
   width: 70%;
-  background-color: #015c41;
+  background-color: #2c2c2c;
   height: 300px; /* only for demonstration, should be removed */
 }
 
@@ -168,10 +183,10 @@ section::after {
 
 /* Style the footer */
 footer {
-  background-color: #014730;
-  padding: 10px;
+  background-color: #003523;
+  padding: 30px;
   text-align: center;
-  color: whitesmoke;
+  color: #003523;
 }
 
 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
@@ -185,9 +200,11 @@ footer {
 </head>
 <body>
 
-<h2>Project ouderavond</h2>
-<p>text</p>
-<p>text</p>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 <header>
   <h2>Project ouderavond</h2>
@@ -200,12 +217,12 @@ footer {
   
   <article>
     <h1>Project ouderavond</h1>
-    <p>inleiding</p>
+    <p>Dit project is een opdracht, we moesten sites maken voor een ouderavond en die presenteren. Na Weken werken, is dit het eindproduct</p>
   </article>
 </section>
 
 <footer>
-  <p>Footer</p>
+  <p>cool</p>
 </footer>
 
 </body>

@@ -1,0 +1,43 @@
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row-reverse;
+    width: 1200px;
+  }
+  
+  .flex-container>div {
+    background-color: blue;
+    color: blue;
+    color: black;
+    color: red;
+    color: green;
+    width: 200px;
+    height: 200px;
+  }
+  .flex-container>div2 {
+    background-color: black;
+    color: black;
+    color: red;
+    color: green;
+    width: 200px;
+    height: 200px;
+  }
+  .flex-container>div3 {
+    background-color: red;
+    color: blue;
+    color: black;
+    color: red;
+    color: green;
+    width: 200px;
+    height: 200px;
+  }
+  .flex-container>div4 {
+    background-color: green;
+    color: blue;
+    color: black;
+    color: red;
+    color: green;
+    width: 200px;
+    height: 200px;
+  }
