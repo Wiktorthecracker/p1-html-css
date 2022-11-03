@@ -1,26 +1,16 @@
-function opdracht71(){
-    var budget = 100;
-    var product = 60;
-
-    if(budget>product)
-{
-    //alert("u heeft niet genoeg geld");
-    document.getElementById("tekst1")
-}
-}
-
-function myfunction(){
-    let text;
-    let person = prompt("Zet hier jou budget");
-        var budget = 100;
-        var product = 60;
+function geld(){
     
-        if(budget>product){
-        //alert("u heeft niet genoeg geld");
-        document.getElementById("tekst1")
+    let budget = 100;
+    let product = 60;
+    
+    
+    if( budget > product){
+        document.getElementById("tekst1").style.color = "green";
+        document.getElementById("tekst1").innerHTML="genoeg geld";
     }
-        if(budget>budget){
-            //alert("Goed");
-            document.getElementById("tekst2")
-        }
+    else{ 
+        document.getElementById("tekst1").style.color = "red";
+        document.getElementById("tekst1").innerHTML="te weinig geld";
+    }
+
 }
