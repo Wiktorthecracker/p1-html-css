@@ -1,11 +1,23 @@
+function plus()
+{ var a=parseInt(document.getElementById('number').value);
+var b=parseInt(document.getElementById('numbers').value);
+document.getElementById('result').innerHTML=a+b
+}
 
-<!--
-var getal1 = parseInt(window.document.getElementById("getal1").Value, 10);
+function minus() 
+{ var a=parseInt(document.getElementById('number').value);
+var b=parseInt(document.getElementById('numbers').value);
+document.getElementById('result').innerHTML=a-b
+}
 
-var getal2 = parseInt(window.document.getElementById("getal1").Value, 10);
+function keer() 
+{ var a=parseInt(document.getElementById('number').value);
+var b=parseInt(document.getElementById('numbers').value);
+document.getElementById('result').innerHTML=a*b
+}
 
-
-antwoord = getal1+getal2;
-
--->
-
+function delen() 
+{ var a=parseInt(document.getElementById('number').value);
+var b=parseInt(document.getElementById('numbers').value);
+document.getElementById('result').innerHTML=a/b
+}

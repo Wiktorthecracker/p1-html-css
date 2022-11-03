@@ -4,17 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="java.js"></script>
+    <title>document</title>
 </head>
 <body>
-    <h1 id="antwoord"></h1>
-<input type="number" id="getal1">
-<input type="number" id="getal2">
-<button onclick="plus()">+</button>
-<button onclick="min()">-</button>
-<button onclick="keer()">X</button>
-<button onclick="Delen()">/</button>
-
+  <h1>Het antwoord is:<span id="result"></span></h1> 
+    <script src="java.js"></script>
+    1st number :
+    <input type="number" value="" id="number"> 
+    2nd number :
+    <input type="number" value="" id="numbers"> <br><br>
+    <input type="button" value="plus" onclick=" return plus()"> 
+    <input type="button" value="minus" onclick="return minus()">
+    <input type="button" value="X" onclick=" return keer()">
+    <input type="button" value=":" onclick=" return delen()">
+     <br><br>
 </body>
 </html>
