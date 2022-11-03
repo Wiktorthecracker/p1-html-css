@@ -4,7 +4,7 @@ var b=parseInt(document.getElementById('numbers').value);
 document.getElementById('result').innerHTML=a+b
 }
 
-function minus() 
+function min() 
 { var a=parseInt(document.getElementById('number').value);
 var b=parseInt(document.getElementById('numbers').value);
 document.getElementById('result').innerHTML=a-b
