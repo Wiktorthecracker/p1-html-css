@@ -1,16 +1,27 @@
-function calculate(num, num2) {
-    let answer = num + num2;
-    console.log(answer);
-    alert(answer);
+function kleur_aanpassen() {
+    document.getElementById("h1").style.color ="red";
+    document.getElementById("h1").innerText = "tekst veranderd";
 }
 
-function MultiplyByFive(num, num1){
-    var num1 = 12;
-    var num2 = 4;
-    let answer = num1 * num2;
-    var number = prompt("vul een nummer in");
-
-    let multiply = prompt("Put in a number to be multiplied by 5");
+function calculater(x, y) {
+    let answer = x + y;
     console.log(answer);
-    alert(answer)
-}
+    }
+    calculater (1, 7);
+    
+    
+    
+    function multiplybyfive(x) {
+        let answer = x * 5;
+        console.log(answer);
+        }
+        
+    
+    
+        function calculatermintutes(num){
+            let answer = num /60;
+            console.log(num / 60)
+    
+        }
+    
+        calculatermintutes(3600)
