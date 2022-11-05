@@ -1,18 +1,18 @@
-function myfun()
+function Plus()
 { var a=parseInt(document.getElementById('number').value);
 var b=parseInt(document.getElementById('numbers').value);
 document.getElementById('result').innerHTML=a+b
 
 }
 
-function myfun2() 
+function Min() 
 { var a=parseInt(document.getElementById('number').value);
 var b=parseInt(document.getElementById('numbers').value);
 document.getElementById('result').innerHTML=a-b
 
 
 }
-function myfun3() 
+function Keer() 
 { var a=parseInt(document.getElementById('number').value);
 var b=parseInt(document.getElementById('numbers').value);
 document.getElementById('result').innerHTML=a*b
@@ -20,7 +20,7 @@ document.getElementById('result').innerHTML=a*b
 
 }
 
-function myfun4() 
+function Delen() 
 { var a=parseInt(document.getElementById('number').value);
 var b=parseInt(document.getElementById('numbers').value);
 document.getElementById('result').innerHTML=a/b
@@ -28,7 +28,7 @@ document.getElementById('result').innerHTML=a/b
 
 }
 if (Number < 0) {
-    greeting = "Cool";
+    greeting = "Het getal is te laag";
 } else {
 
 }
